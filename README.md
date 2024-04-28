@@ -11,7 +11,27 @@
           (PATH: src/main/resources > application.properties).
 - Step 4) To start project on local server run “Traini8AssignmentApplication.java” class as Java Application.                                                  
           (PATH: src/main/java > com.traini8 > Traini8AssignmentApplication.java).
+# APIs (POST & GET) :
+- POST: localhost:8080/traini8/training-center
+  Data Format 
+  {
+    "centerName": "ABC",
+    "centerCode": "Delhi8888888",
+    "studentCapacity": 5,
+    "coursesOffered": ["Java", "SpringBoot", "SQL"],
+    "contactEmail": "abc@gmail.com",
+    "contactPhone": "1234567899",
+    "address": {
+        "detailedAddress": "Near KIET College",
+        "city": "Ghaziabad",
+        "state": "U.P.",
+        "pincode": 201206
+   }
+ }
 
+- GET : localhost:8080/traini8/training-centers
+
+  
 # Projects Specification :
 - Project is having 2 APIs (POST and GET).
 - POST API is to create and save a new training center with the following fields : -
