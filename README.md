@@ -13,21 +13,21 @@
           (PATH: src/main/java > com.traini8 > Traini8AssignmentApplication.java).
 # APIs (POST & GET) :
 - POST: localhost:8080/traini8/training-center
-  Data Format 
+  Data Format:
   {
-    "centerName": "ABC",
-    "centerCode": "Delhi8888888",
-    "studentCapacity": 5,
-    "coursesOffered": ["Java", "SpringBoot", "SQL"],
-    "contactEmail": "abc@gmail.com",
-    "contactPhone": "1234567899",
-    "address": {
-        "detailedAddress": "Near KIET College",
-        "city": "Ghaziabad",
-        "state": "U.P.",
-        "pincode": 201206
-   }
- }
+            "centerName" : "ABC",
+            "centerCode" : "Delhi8888888",
+            "studentCapacity" : 5,
+            "coursesOffered" : ["Java", "SpringBoot", "SQL"],
+            "contactEmail" : "abc@gmail.com",
+            "contactPhone" : 1234567899,
+            "address" : {
+                    "detailedAddress" : "Near Kiet College",
+                    "city" : "Ghaziabad",
+                    "state" : "U.P.",
+                    "pincode" : 201206
+            }
+  }          
 
 - GET : localhost:8080/traini8/training-centers
 
