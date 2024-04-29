@@ -14,24 +14,24 @@
 
 
 # APIs (POST & GET) :
-- POST: localhost:8080/traini8/training-center
-  Data Format:
-  {
-            "centerName" : "ABC",
-            "centerCode" : "Delhi8888888",
-            "studentCapacity" : 5,
-            "coursesOffered" : ["Java", "SpringBoot", "SQL"],
-            "contactEmail" : "abc@gmail.com",
-            "contactPhone" : 1234567899,
-            "address" : {
-                    "detailedAddress" : "Near Kiet College",
-                    "city" : "Ghaziabad",
-                    "state" : "U.P.",
-                    "pincode" : 201206
-            }
-  }          
+- POST: localhost:8080/traini8/training-center <br>
+  Data Format:<br>
+  {<br>
+            "centerName" : "ABC",<br>
+            "centerCode" : "Delhi8888888",<br>
+            "studentCapacity" : 5,<br>
+            "coursesOffered" : ["Java", "SpringBoot", "SQL"],<br>
+            "contactEmail" : "abc@gmail.com",<br>
+            "contactPhone" : 1234567899,<br>
+            "address" : {<br>
+                    "detailedAddress" : "Near Kiet College",<br>
+                    "city" : "Ghaziabad",<br>
+                    "state" : "U.P.",<br>
+                    "pincode" : 201206<br>
+            }<br>
+  }<br>          
 
-- GET : localhost:8080/traini8/training-centers
+- GET : localhost:8080/traini8/training-centers<br>
 
   
 # Projects Specification :
