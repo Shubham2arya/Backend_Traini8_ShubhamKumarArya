@@ -6,17 +6,17 @@
 # Steps To Setup Project :
 - Step 1) Clone project into your system.
 - Step 2) Import project on Java IDE (extract first if downloaded project is in zip format).
-- Step 3) Create new data base of name “ traini8 ”. data base name can be custom but for this you need to make change in “application.properties” page in line   
-          “spring.datasource.url=jdbc:mysql://localhost:3306/traini8?serviceTimezone=UTC” change traini8 into your desired data base name.                     
-          (PATH: src/main/resources > application.properties).
-- Step 4) To start project on local server run “Traini8AssignmentApplication.java” class as Java Application.                                                  
-          (PATH: src/main/java > com.traini8 > Traini8AssignmentApplication.java).
+- Step 3) Create new data base of name <strong>“ traini8 ”</strong>. data base name can be custom but for this you need to make change in <strong>“application.properties”</strong> page in line   
+          <strong>“spring.datasource.url=jdbc:mysql://localhost:3306/traini8?serviceTimezone=UTC”</strong> change traini8 into your desired data base name.<br>                 
+          <strong>(PATH: src/main/resources > application.properties)</strong>.
+- Step 4) To start project on local server run <strong>“Traini8AssignmentApplication.java”</strong> class as Java Application.                                                  
+          <strong>(PATH: src/main/java > com.traini8 > Traini8AssignmentApplication.java)</strong>.
 
 
 # APIs (POST & GET) :
-- POST: localhost:8080/traini8/training-center <br>
+- POST: <<strong>localhost:8080/traini8/training-center</strong>> <br>
   Data Format:<br>
-  {<br>
+ <code>{<br>
             "centerName" : "ABC",<br>
             "centerCode" : "Delhi8888888",<br>
             "studentCapacity" : 5,<br>
@@ -29,9 +29,9 @@
                     "state" : "U.P.",<br>
                     "pincode" : 201206<br>
             }<br>
-  }<br>          
+  }</code<br>          
 
-- GET : localhost:8080/traini8/training-centers<br>
+- GET : <<strong>localhost:8080/traini8/training-centers</strong>><br>
 
   
 # Projects Specification :
