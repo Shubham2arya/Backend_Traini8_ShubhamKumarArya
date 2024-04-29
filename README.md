@@ -6,8 +6,7 @@
 # Steps To Setup Project :
 - Step 1) Clone project into your system.
 - Step 2) Import project on Java IDE (extract first if downloaded project is in zip format).
-- Step 3) Create new data base of name <strong><em>“ traini8 ”</em></strong>. data base name can be custom but for this you need to make change in <strong><em>“application.properties”</em></strong> page in line “spring.datasource.url=jdbc:mysql://localhost:3306/<strong><em>traini8</em></strong>?serviceTimezone=UTC” change traini8 into your desired data base name.<br>                 
-          (<strong>PATH:</strong> src/main/resources > application.properties).
+- Step 3) Create new data base of name <strong><em>“ traini8 ”</em></strong>. data base name can be custom but for this you need to make change in <strong><em>“application.properties”</em></strong> page in line “spring.datasource.url=jdbc:mysql://localhost:3306/<strong><em>traini8</em></strong>?serviceTimezone=UTC” change traini8 into your desired data base name.<br>(<strong>PATH:</strong> src/main/resources > application.properties).
 - Step 4) To start project on local server run <strong><em>“Traini8AssignmentApplication.java”</em></strong> class as Java Application.                                                  
           (<strong>PATH:</strong> src/main/java > com.traini8 > Traini8AssignmentApplication.java).
 
