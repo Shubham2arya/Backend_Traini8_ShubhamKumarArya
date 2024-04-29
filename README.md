@@ -6,15 +6,15 @@
 # Steps To Setup Project :
 - Step 1) Clone project into your system.
 - Step 2) Import project on Java IDE (extract first if downloaded project is in zip format).
-- Step 3) Create new data base of name <strong>“ traini8 ”</strong>. data base name can be custom but for this you need to make change in <strong>“application.properties”</strong> page in line   
-          <strong>“spring.datasource.url=jdbc:mysql://localhost:3306/traini8?serviceTimezone=UTC”</strong> change traini8 into your desired data base name.<br>                 
+- Step 3) Create new data base of name <strong><em>“ traini8 ”</em></strong>. data base name can be custom but for this you need to make change in <strong><em>“application.properties”</em></strong> page in line   
+          <strong>“spring.datasource.url=jdbc:mysql://localhost:3306/<em>traini8</em>?serviceTimezone=UTC”</strong> change traini8 into your desired data base name.<br>                 
           <strong>(PATH: src/main/resources > application.properties)</strong>.
-- Step 4) To start project on local server run <strong>“Traini8AssignmentApplication.java”</strong> class as Java Application.                                                  
+- Step 4) To start project on local server run <strong><em>“Traini8AssignmentApplication.java”</em></strong> class as Java Application.                                                  
           <strong>(PATH: src/main/java > com.traini8 > Traini8AssignmentApplication.java)</strong>.
 
 
 # APIs (POST & GET) :
-- POST: <<strong>localhost:8080/traini8/training-center</strong>> <br>
+- POST: <strong><localhost:8080/traini8/training-center></strong> <br>
   Data Format:<br>
  <code>{<br>
             "centerName" : "ABC",<br>
@@ -31,7 +31,7 @@
             }<br>
   }</code<br>          
 
-- GET : <<strong>localhost:8080/traini8/training-centers</strong>><br>
+- GET : <strong><localhost:8080/traini8/training-centers></strong><br>
 
   
 # Projects Specification :
